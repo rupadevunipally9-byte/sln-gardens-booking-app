@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.react-calendar__tile.blue-tile {
+  background: #0d6efd !important; color: #fff !important;
+}
+.react-calendar__tile.yellow-tile {
+  background: #ffc107 !important; color: #222 !important;
+}
+.react-calendar__tile.green-tile {
+  background: #198754 !important; color: #fff !important;
+}
+.react-calendar__tile.red-tile {
+  background: #dc3545 !important; color: #fff !important;
+}
+
+/* Table Row Colors */
+.row-blue { background: #cfe2ff; }
+.row-yellow { background: #fff3cd; }
+.row-green { background: #d1e7dd; }
+.row-red { background: #f8d7da; }
+
+.responsive-table-container {
+  width: 100%; overflow-x: auto; margin: 16px 0;
+}
+.responsive-table {
+  width: 100%; border-collapse: collapse; min-width: 600px;
+}
+.responsive-table th, .responsive-table td {
+  padding: 12px; border: 1px solid #ddd; font-size: 1rem;
+}
+.responsive-table th {
+  background: #f8f9fa;
+}
+.main-wrap {
+  max-width: 900px; margin: 0 auto; padding: 8px;
+}
+.page-title {
+  text-align: center; color: #333; font-size: 1.7rem; margin-bottom: 14px;
+}
+.selected-date {
+  font-size: 1.1rem; text-align: center;
+}
+
+/* Responsive styles for mobile/small screens */
+@media (max-width: 600px) {
+  .responsive-table, .responsive-table th, .responsive-table td {
+    font-size: .9rem;
+  }
+  .main-wrap {
+    padding: 2px;
+    background-color: black;
+  }
+  .page-title {
+    font-size: 1.2rem;
+  }
+  .responsive-form-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+@media (min-width:601px) and (max-width:900px) {
+  .responsive-table, .responsive-table th, .responsive-table td {
+    font-size: 1rem;
+  }
+  .page-title {
+    font-size: 1.5rem;
+  }
+}
+
+.responsive-form-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+.responsive-input {
+  padding: 7px; font-size: .98rem; border-radius: 4px; border: 1px solid #ccc; flex: 1;
+  min-width: 110px;
+}
+
+.primary-btn {
+  padding: 7px 16px; background: #0d6efd; color: white; border: none; border-radius: 4px; cursor: pointer;
+}
+.success-btn {
+  padding: 7px 14px; background: #198754; color: white; border: none; border-radius: 4px; cursor: pointer;
+}
+.danger-btn {
+  padding: 7px 14px; background: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer;
+}
+.ownername {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #234;
+  margin-bottom: 10px;
+}
