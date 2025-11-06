@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# sln-gardens-booking-app
+A real-time, mobile-responsive calendar and booking system for SLN Gardens, built using React and Firebase. Instantly manage all hall bookings, payments, and completion status across all devices.
+>>>>>>> 7d3e254d26a41789f996f560ce6791703951f8b2
