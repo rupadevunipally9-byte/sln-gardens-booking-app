@@ -471,7 +471,7 @@ export default function App() {
     alt="Narasimha Lakshmi"
     className="garden-logo"
   />
-  SLN Gardens Booking System
+  SLN Gardens Event Booking 
 </h1>
 
       <p className="ownername">
@@ -525,6 +525,10 @@ export default function App() {
           onAdd={handleAdd}
 
         />
+             <p className="ownername">
+        Handler: Rupa Devunipally
+        Contact: rupadevunipally9@gmail.com
+      </p>
 
       </div>
 
