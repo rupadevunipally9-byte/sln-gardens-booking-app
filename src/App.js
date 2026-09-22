@@ -20,6 +20,8 @@ function getTileClass(date, bookings) {
   const bookingsForDate = bookings.filter(
     b => b.date === dateStr
   );
+  const [darkMode, setDarkMode] = useState(false);
+  
 
   if (bookingsForDate.length === 0) return '';
 
@@ -461,7 +463,7 @@ export default function App() {
 
   return (
 
-    <div className="main-wrap">
+    <div className={darkMode ? "main-wrap dark-mode" : "main-wrap"}>
 
       <h1 className="page-title">
         🏛️ SLN Gardens Booking System
@@ -470,7 +472,9 @@ export default function App() {
       <p className="ownername">
         Owner: Srinivas Devunipally
       </p>
-
+      <button onClick={() => setDarkMode(!darkMode)}>
+         {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+      </button>
       <Calendar
 
         onClickDay={setSelectedDate}
