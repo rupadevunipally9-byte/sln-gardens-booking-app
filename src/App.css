@@ -5,6 +5,14 @@
 * {
   box-sizing: border-box;
 }
+.garden-logo {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 12px;
+}
 .dark-mode {
   background: #121212;
   color: white;
