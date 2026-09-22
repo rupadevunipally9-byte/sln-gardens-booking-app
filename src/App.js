@@ -466,8 +466,13 @@ export default function App() {
     <div className={darkMode ? "main-wrap dark-mode" : "main-wrap"}>
 
       <h1 className="page-title">
-        🏛️ SLN Gardens Booking System
-      </h1>
+  <img
+    src="https://budhshiv.com/cdn/shop/collections/narsimha-lakshmi-459235.jpg?v=1780254573"
+    alt="Narasimha Lakshmi"
+    className="garden-logo"
+  />
+  SLN Gardens Booking System
+</h1>
 
       <p className="ownername">
         Owner: Srinivas Devunipally
